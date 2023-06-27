@@ -12,14 +12,6 @@
 
 <img  align="center" src="https://i.imgur.com/XO3bFyQ.png" alt="project-screenshot" width="1280" height="600">
 <br>
-<br>
-
-  
-<h2 align="center">💻 Built with:</h2>
-
-<p align="center">HTML</p>
-<p align="center">CSS</p>
-<p align="center">JavaScript</p>
 
 
 <h2 align="center">🛠️ Steps for manual installation :</h2>
