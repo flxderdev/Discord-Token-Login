@@ -1,7 +1,7 @@
 
 <p align="center"><img src="https://i.imgur.com/cZ24ooL.png"></p>
 
-<p align="center">Here right now you can download the newest (3.0) version. <br>On the Chrome Web Store you can download 2.1 - Google is verifying files, usually this process can take up to 3 days. <br>
+<p align="center">Here right now you can download the newest (3.0) version. <br>On the Chrome Web Store you can download 2.2 - Google is verifying files, usually this process can take up to 3 days. <br>
   I will delete that note later (as soon as it will be up-to-date everywhere)
 <p align="center">Now available in the Chrome Web Store! <a href="https://chrome.google.com/webstore/detail/discord-token-login/hifcahjlgbmhppcoppikpcceognjcjjp" target="_blank">HERE</a></p>
 
