@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Podstawowe meta tagi -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord Token Login by flxder#1528</title>
+    <!-- Podłączenie czcionek i arkusza stylów -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Podłączenie biblioteki Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="discord-token-login-popup">
+    <div class="block">
+      <div class="block-inner">
+        <!-- Animacja cząsteczek -->
+        <div id="particles-js"></div>
+        <!-- Okno logowania -->
+        <div class="ghost-box">
+          <form id="data">
+            <p class="token non-selectable">
+              ★ Created by 𝗳𝗹𝘅𝗱𝗲𝗿 ★<br />Ξ★ Discord Token Login ★Ξ
+            </p>
+            <!-- Pole do wprowadzenia tokena -->
+            <input
+              id="token"
+              type="password"
+              class="tokengoeshere"
+              spellcheck="false"
+              placeholder="PASTE YOUR TOKEN HERE"
+              required
+            />
+            <!-- Przycisk logowania -->
+            <button id="submit" class="non-selectable">
+              Login
+              <span class="icon"> <i class="fa-solid fa-lock-open"></i></span>
+            </button>
+            <!-- Link do wsparcia autora -->
+          </form>
+          <a
+            class="support"
+            href="https://www.buymeacoffee.com/flxder"
+            target="_blank"
+            >Support my work with a $1 coffee &#10084;</a
+          >
+          <a class="contact-text non-selectable"
+            >Contact me here <i class="fa-solid fa-arrow-down"></i
+          ></a>
+          <!-- Przyciski mediów społecznościowych -->
+          <div class="middle">
+            <a class="btn" href="https://discord.gg/DHDx4fg4GW" target="_blank">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+            <a class="btn" href="mailto:flxder.dev@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a class="btn" href="https://github.com/flxderdev" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Podłączenie skryptu JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

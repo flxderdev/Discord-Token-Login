@@ -1,0 +1,25 @@
+{
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup/index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["http://*.discord.com/*", "https://*.discord.com/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "description": "Free & Easy and simple discord login with a Token!",
+  "icons": {
+    "128": "logo.png"
+  },
+  "manifest_version": 3,
+  "name": "Discord Token Login",
+  "permissions": [],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "3.0"
+}
