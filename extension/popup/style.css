@@ -124,7 +124,7 @@ body {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);
   -moz-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);
   box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);
-  animation: animate 8s linear infinite;
+  animation: animate 8s ease infinite;
   transition: box-shadow, 0.4s;
   border: none;
   font-size: 19px;
@@ -332,10 +332,6 @@ input {
   inherits: true;
   initial-value: 1turn;
 }
-
-input[type="password" i] {
-  -webkit-text-security: square;
-}
 .middle {
   margin-top: 20px;
   top: 50%;
@@ -377,6 +373,8 @@ input[type="password" i] {
   background: white;
   -webkit-background-clip: text;
   color: #ffffff;
+  animation: animate 7s cubic-bezier(0.75, 0.75, 0.75, 0.75) infinite,
+    welcome 0.1s ease 0s 1 normal forwards;
 }
 
 .btn::before {
@@ -413,52 +411,15 @@ input[type="password" i] {
   }
 }
 
-.discord_tag {
-  color: transparent;
-  margin-top: -200px;
-}
-.copied-tooltip {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  font-size: 12px;
-  margin-left: 48px;
-  border: none;
-  border-radius: 4px;
-  margin-top: 0;
-  background: linear-gradient(to right, #bb00ff 19%, #3b61f7 100%);
-  transform: scale(1.05, 1.05);
-  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);
-  background-size: 400%;
-  animation: animate 7s cubic-bezier(0.75, 0.75, 0.75, 0.75) infinite;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
 #data {
   margin: 0;
   padding: 0;
 }
 
 .support {
-  color: linear-gradient(to right, #bb00ff 19%, #3b61f7 100%);
-  text-decoration: underline;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: rgba(140, 0, 255, 0.9) 0px 0px 20px;
-  animation: animate 3s cubic-bezier(0.75, 0.75, 0.75, 0.75) infinite;
-  animation: welcome 0.5s ease 0s 1 normal forwards;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  white-space: nowrap;
-}
-.contact-text {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
-  margin-top: -20px;
   text-align: center;
   background: #bb00ff;
   background: linear-gradient(to right, #bb00ff 19%, #3b61f7 100%);
@@ -468,5 +429,22 @@ input[type="password" i] {
   animation: myAnim 1s ease 0s 1 normal forwards;
   animation: welcome 0.5s ease 0s 1 normal forwards;
   padding-bottom: 5px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: #bb00ff;
+  background: linear-gradient(to right, #bb00ff 19%, #3b61f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(140, 0, 255, 0.9) 0px 0px 20px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  animation: welcome 0.5s ease 0s 1 normal forwards;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
 }

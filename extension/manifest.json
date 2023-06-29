@@ -13,7 +13,7 @@
       "run_at": "document_start"
     }
   ],
-  "description": "Free & Easy and simple discord login with a Token!",
+  "description": "Free, Easy and simple discord login with a Token!",
   "icons": {
     "128": "logo.png"
   },
@@ -21,5 +21,5 @@
   "name": "Discord Token Login",
   "permissions": [],
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "3.0"
+  "version": "3.1"
 }
