@@ -5,7 +5,7 @@
 <p align="center"><img src="https://img.shields.io/chrome-web-store/users/hifcahjlgbmhppcoppikpcceognjcjjp" alt="shields"><img src="https://img.shields.io/chrome-web-store/stars/hifcahjlgbmhppcoppikpcceognjcjjp" alt="shields"><img src="https://img.shields.io/github/contributors/flxderdev/Discord-Token-Login" alt="shields"><img src="https://img.shields.io/github/release-date/flxderdev/Discord-Token-Login" alt="shields"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/hifcahjlgbmhppcoppikpcceognjcjjp?label=Version%3A">
 </p>
 
-<h2 align="center">Extension Screenshot:</h2>
+<h2 align="center">Extension Screenshot (OUTDATED):</h2>
 
 <img  align="center" src="https://i.imgur.com/cGAkdrt.png" alt="project-screenshot" width="1280" height="650">
 <br>
