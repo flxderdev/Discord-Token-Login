@@ -1,7 +1,5 @@
 
 <p align="center"><img src="https://i.imgur.com/cZ24ooL.png"></p>
-
-<p align="center">I got some emails about the extension not working. Im not sure if its due to the new discord username update or people are using bot tokens (which are not working). <br>If someone knows how to fix this - send me a message or contribute to this project:)</p>
 <p align="center">Now available in the Chrome Web Store! <a href="https://chrome.google.com/webstore/detail/discord-token-login/hifcahjlgbmhppcoppikpcceognjcjjp" target="_blank">HERE</a></p>
 
 <p align="center"><img src="https://img.shields.io/chrome-web-store/users/hifcahjlgbmhppcoppikpcceognjcjjp" alt="shields"><img src="https://img.shields.io/chrome-web-store/stars/hifcahjlgbmhppcoppikpcceognjcjjp" alt="shields"><img src="https://img.shields.io/github/contributors/flxderdev/Discord-Token-Login" alt="shields"><img src="https://img.shields.io/github/release-date/flxderdev/Discord-Token-Login" alt="shields"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/hifcahjlgbmhppcoppikpcceognjcjjp?label=Version%3A">
