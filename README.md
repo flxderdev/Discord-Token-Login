@@ -7,7 +7,7 @@
 
 <h2 align="center">Extension Screenshot:</h2>
 
-<img  align="center" src="https://i.imgur.com/cGAkdrt.png" alt="project-screenshot" width="1280" height="650">
+<img  align="center" src="https://i.imgur.com/hQcLnp5.png" alt="project-screenshot" width="1280" height="650">
 <br>
 
 
