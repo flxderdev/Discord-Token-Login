@@ -33,4 +33,4 @@
 
 <h2 align="center">💖Like my work?</h2>
 
-<p align="center">Support me with a 1$ coffee: https://www.buymeacoffee.com/flxder</p>
+<p align="center">Support me with a 1$ coffee: https://ko-fi.com/flxderdev</p>
